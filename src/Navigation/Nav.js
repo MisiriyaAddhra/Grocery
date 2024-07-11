@@ -104,12 +104,12 @@ const Nav = ({ handleInputChange, query, size, user }) => {
               <i className="fas fa-bars"></i>
             </label>
             <ul>
-              <li><Link to="/home" className="home-header-link">Home<RiArrowDropDownLine /></Link></li>
-              <li><Link to="/" className="home-header-link">Shop<RiArrowDropDownLine /></Link></li>
-              <li><Link to="/" className="home-header-link">Fruits & Vegetables</Link></li>
-              <li><Link to="/" className="home-header-link">Beverage</Link></li>
-              <li><Link to="/" className="home-header-link">Blog</Link></li>
-              <li><Link to="/" className="home-header-link">Contact</Link></li>
+              <li><Link to="/home" className="home-header-link white">Home<RiArrowDropDownLine /></Link></li>
+              <li><Link to="/" className="home-header-link white">Shop<RiArrowDropDownLine /></Link></li>
+              <li><Link to="/" className="home-header-link white">Fruits & Vegetables</Link></li>
+              <li><Link to="/" className="home-header-link white">Beverage</Link></li>
+              <li><Link to="/" className="home-header-link white">Blog</Link></li>
+              <li><Link to="/" className="home-header-link white">Contact</Link></li>
             </ul>
           </nav>
           <nav className="home-header-nav-right">

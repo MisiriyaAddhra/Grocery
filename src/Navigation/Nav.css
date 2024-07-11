@@ -28,7 +28,7 @@
 
 .home-header-top,
 .home-header-middle,
-.home-header-nav-middle,
+/* .home-header-nav-middle, */
 .home-header-bottom {
   display: flex;
   align-items: center;
@@ -37,9 +37,9 @@
   border-bottom: 1px solid #E5E7EB;
 }
 
-.home-header-nav-middle {
+/* .home-header-nav-middle {
   border-bottom: none;
-}
+} */
 
 .home-header-nav-top-left ul,
 .home-header-nav-middle-left ul,
@@ -85,12 +85,12 @@
   padding-right: 10px;
 }
 
-.home-header-nav-middle {
+/* .home-header-nav-middle {
   padding: 10px 30px;
   border-radius: 10px;
   background-color: #E5E7EB;
   width: 50%;
-}
+} */
 
 .home-header-nav-middle-right .home-header-link {
   flex-direction: column;
@@ -163,6 +163,11 @@ a small {
 .search-input {
   border: none;
   background: #E5E7EB;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 270px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Media Queries */
@@ -185,9 +190,9 @@ a small {
     padding-right: 50px;
   }
 
-  .home-header-nav-middle {
+  /* .home-header-nav-middle {
     width: 40%;
-  }
+  } */
 }
 
 @media screen and (max-width: 1080px) {
@@ -204,6 +209,10 @@ a small {
 
   .top-section {
     font-size: 12px;
+  }
+
+  .search-input {
+    padding-right: 200px;
   }
 }
 
@@ -224,9 +233,14 @@ a small {
     width: 30%;
     flex-direction: column;
     text-align: center;
-    background-color: #fff;
+    background-color: #634C9F;
     z-index: 100;
     padding-top: 5%;
+    color: #fff;
+  }
+
+  .white {
+    color: #fff;
   }
 
   .home-header-nav-left #click:checked~ul {
@@ -241,6 +255,9 @@ a small {
     display: block;
   }
 
+  .search-input {
+    padding-right: 120px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -249,7 +266,7 @@ a small {
   }
 
   h1.left {
-    width: 70%;
+    width: 100%;
   }
 
   .none {
@@ -277,19 +294,16 @@ a small {
     padding-right: 20px;
   }
 
+  .search-input {
+    padding-right: 60px;
+
+  }
 }
 
+
 @media screen and (max-width: 540px) {
-  h1.left {
-    width: 60%;
-  }
-
-  .home-header-nav-middle {
-    width: 30%;
-  }
-
   .search-input {
-    width: 50%;
+    padding-right: 30px;
   }
 }
 
@@ -301,40 +315,18 @@ a small {
     gap: 10px;
   }
 
-  h1.left {
-    width: 94%;
-  }
-
-  .home-header-nav-middle {
-    padding: 6px 10px;
-  }
-
-  .home-header-nav-middle {
-    width: 60%;
-  }
-
   .user-popup {
     left: -45px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  h1.left {
+    width: 95%;
   }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* end */
